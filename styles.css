@@ -96,5 +96,11 @@ header > div {
 }
 
 main {
+	display: grid;
+	grid-template-columns: 2.5fr 1fr;
 	background-color: #e2e7ef;
+}
+
+#projects {
+	grid-row: 1 / 3;
 }
