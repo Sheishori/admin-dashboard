@@ -33,7 +33,7 @@ body {
 	display: grid;
 	height: 100vh;
 	line-height: 1;
-	grid-template: 10rem 1fr / 18rem 1fr;
+	grid-template: 11.5rem 1fr / 18rem 1fr;
 	font-family: sans-serif;
 }
 
@@ -97,7 +97,7 @@ header > div {
 
 #buttons {
 	grid-auto-flow: column;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 main {
