@@ -99,6 +99,7 @@ header > div {
 main {
 	display: grid;
 	grid-template-columns: 2.5fr 1fr;
+	grid-template-rows: 1fr 1fr;
 	gap: 1rem;
 	background-color: #e2e7ef;
 }
