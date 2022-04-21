@@ -41,6 +41,16 @@ ol, ul {
 	list-style: none;
 }
 
+h1, h2, h3, h4, .nav {
+	font-weight: 600;
+}
+
+.project p,
+.announcement p,
+.project-name {
+	color: rgb(105, 105, 105);
+}
+
 #sidebar {
 	grid-area: 1 / 1 / 3 / 2;
 	display: grid;
