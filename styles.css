@@ -33,7 +33,7 @@ body {
 	display: grid;
 	height: 100vh;
 	line-height: 1;
-	grid-template: 10rem 1fr / 20rem 1fr;
+	grid-template: 10rem 1fr / 18rem 1fr;
 }
 
 ol, ul {
