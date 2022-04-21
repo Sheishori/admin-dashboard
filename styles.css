@@ -42,8 +42,20 @@ ol, ul {
 
 #sidebar {
 	grid-area: 1 / 1 / 3 / 2;
+	display: grid;
+	grid-auto-rows: min-content;
+	gap: 3rem;
 	color: white;
 	background-color: #308fd1;
+}
+
+#sidebar > div {
+	display: grid;
+	grid-template-columns: 3rem auto;
+}
+
+#sidebar img {
+	justify-self: center;
 }
 
 header {
