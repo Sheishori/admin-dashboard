@@ -51,11 +51,12 @@ ol, ul {
 
 #sidebar > div {
 	display: grid;
-	grid-template-columns: 3rem auto;
+	grid-template-columns: auto auto;
+	justify-content: start;
+	gap: 1.5rem;
 }
 
 #sidebar img {
-	justify-self: center;
 }
 
 header {
