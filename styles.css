@@ -84,7 +84,8 @@ header > div {
 	justify-self: start;
 }
 
-#user img {
+#user img,
+.trending-user img {
 	grid-row: 1 / 3;
 	align-self: center;
 	justify-self: end;
@@ -98,9 +99,46 @@ header > div {
 main {
 	display: grid;
 	grid-template-columns: 2.5fr 1fr;
+	gap: 1rem;
 	background-color: #e2e7ef;
 }
 
 #projects {
 	grid-row: 1 / 3;
+}
+
+.project,
+#announcements .items,
+#trending .items {
+	background-color: white;
+}
+
+.items {
+	display: grid;
+}
+
+#projects .items {
+	grid-template-columns: 1fr 1fr;
+	gap: 1.5rem;
+}
+
+#announcements .items {
+	gap: 1rem;
+}
+
+.separator {
+	height: 1px;
+	background-color: lightgray;
+}
+
+#trending .items {
+	justify-content: center;
+	gap: 1rem;
+}
+
+.trending-user {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: left;
+	align-self: center;
 }
