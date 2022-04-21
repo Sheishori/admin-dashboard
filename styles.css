@@ -60,6 +60,9 @@ ol, ul {
 
 header {
 	grid-area: 1 / 2 / 2 / 3;
+	display: grid;
+	grid-template: 1fr 1fr / 1fr min(40%, 40rem);
+	align-items: center;
 }
 
 main {
