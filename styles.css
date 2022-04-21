@@ -45,6 +45,14 @@ h1, h2, h3, h4, .nav {
 	font-weight: 600;
 }
 
+h2 {
+	margin-bottom: 0.8rem;
+}
+
+h3, h4 {
+	margin-bottom: 0.3rem;
+}
+
 .project p,
 .announcement p,
 .project-name {
@@ -115,7 +123,7 @@ main {
 	grid-template-columns: 2.5fr 1fr;
 	grid-template-rows: 1fr 1fr;
 	gap: 1rem;
-	padding: 2rem 2rem 1rem 1rem;
+	padding: 2rem 2rem 5rem 1rem;
 	background-color: #e2e7ef;
 }
 
@@ -138,6 +146,15 @@ main {
 	gap: 1.5rem;
 }
 
+.project {
+	padding: 2rem 1.5rem;
+}
+
+#announcements .items,
+#trending .items {
+	padding: 2rem;
+}
+
 .announcement p {
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -156,7 +173,6 @@ main {
 }
 
 #trending .items {
-	justify-content: center;
 	gap: 1rem;
 }
 
