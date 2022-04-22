@@ -159,7 +159,7 @@ main {
 .project {
 	display: grid;
 	grid-template-rows: min-content;
-	padding: 2rem 1.5rem;
+	padding: 1.8rem 1.2rem;
 	border-left: 0.5rem solid orange;
 }
 
@@ -169,7 +169,8 @@ main {
 	grid-auto-flow: column;
 	justify-content: end;
 	align-content: center;
-	gap: 1rem;
+	gap: 2rem;
+	margin: 0 0.6rem;
 }
 
 #announcements .items,
@@ -181,6 +182,7 @@ main {
 .project p,
 .announcement p,
 .project-name {
+	font-size: 0.95rem;
 	color: rgb(105, 105, 105);
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -195,10 +197,12 @@ main {
 
 .announcement p {
   -webkit-line-clamp: 3;
+	font-size: 0.85rem;
 }
 
 .project-name {
 	white-space: nowrap;
+	font-size: 0.90rem;
 }
 
 .separator {
