@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -153,10 +152,24 @@ main {
 #announcements .items,
 #trending .items {
 	background-color: white;
+	border-radius: 0.5rem;
+	box-shadow: 0.1rem 0.2rem 0.2rem rgb(190, 190, 190);
 }
 
 .project {
+	display: grid;
+	grid-template-rows: min-content;
 	padding: 2rem 1.5rem;
+	border-left: 0.5rem solid orange;
+}
+
+.project .icons {
+	align-self: end;
+	display: grid;
+	grid-auto-flow: column;
+	justify-content: end;
+	align-content: center;
+	gap: 1rem;
 }
 
 #announcements .items,
@@ -169,6 +182,10 @@ main {
 .announcement p,
 .project-name {
 	color: rgb(105, 105, 105);
+}
+
+.project p {
+	
 }
 
 .announcement p {
