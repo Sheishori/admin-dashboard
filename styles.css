@@ -175,7 +175,7 @@ main {
 	grid-template-columns: 2.5fr 1fr;
 	gap: 2rem 1rem;
 	padding: 2rem 2rem 4.5rem 1rem;
-	background-color: #e2e7ef;
+	background-color: #e6dfd0;
 }
 
 #projects, #announcements, #trending {
