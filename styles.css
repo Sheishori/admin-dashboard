@@ -145,6 +145,7 @@ header > div {
 	grid-template-columns: auto 1fr;
 	align-items: center;
 	gap: 1rem;
+	max-width: 600px;
 }
 
 #search label img {
