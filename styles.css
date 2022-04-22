@@ -65,7 +65,13 @@ h3, h4 {
 	background-color: #308fd1;
 }
 
-#sidebar > div {
+#sidebar li, 
+#sidebar a {
+	display: contents;
+	color: white;
+}
+
+#sidebar > * {
 	display: grid;
 	grid-template-columns: auto auto;
 	justify-content: start;
