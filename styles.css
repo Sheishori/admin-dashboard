@@ -52,6 +52,11 @@ h3, h4 {
 	margin-bottom: 0.3rem;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
 /* sidebar css */
 
 #sidebar {
@@ -107,8 +112,8 @@ header > div {
 	justify-self: start;
 }
 
-#user img,
-.trending-user img {
+#user .avatar,
+.trending-user .avatar {
 	grid-row: 1 / 3;
 	align-self: center;
 	justify-self: end;
@@ -163,7 +168,7 @@ main {
 	border-left: 0.5rem solid orange;
 }
 
-.project .icons {
+.project .links {
 	align-self: end;
 	display: grid;
 	grid-auto-flow: column;
