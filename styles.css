@@ -53,11 +53,7 @@ h3, h4 {
 	margin-bottom: 0.3rem;
 }
 
-.project p,
-.announcement p,
-.project-name {
-	color: rgb(105, 105, 105);
-}
+/* sidebar css */
 
 #sidebar {
 	grid-area: 1 / 1 / 3 / 2;
@@ -76,8 +72,7 @@ h3, h4 {
 	gap: 1.5rem;
 }
 
-#sidebar img {
-}
+/* header css */
 
 header {
 	grid-area: 1 / 2 / 2 / 3;
@@ -118,6 +113,8 @@ header > div {
 	justify-content: space-between;
 }
 
+/* main body css */
+
 main {
 	display: grid;
 	grid-template-columns: 2.5fr 1fr;
@@ -135,12 +132,6 @@ main {
 	grid-row: 1 / 3;
 }
 
-.project,
-#announcements .items,
-#trending .items {
-	background-color: white;
-}
-
 .items {
 	display: grid;
 }
@@ -151,6 +142,12 @@ main {
 	gap: 1.5rem;
 }
 
+.project,
+#announcements .items,
+#trending .items {
+	background-color: white;
+}
+
 .project {
 	padding: 2rem 1.5rem;
 }
@@ -158,6 +155,13 @@ main {
 #announcements .items,
 #trending .items {
 	padding: 2rem;
+	gap: 1rem;
+}
+
+.project p,
+.announcement p,
+.project-name {
+	color: rgb(105, 105, 105);
 }
 
 .announcement p {
@@ -168,17 +172,9 @@ main {
   -webkit-box-orient: vertical;
 }
 
-#announcements .items {
-	gap: 1rem;
-}
-
 .separator {
 	height: 1px;
 	background-color: lightgray;
-}
-
-#trending .items {
-	gap: 1rem;
 }
 
 .trending-user {
