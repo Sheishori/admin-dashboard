@@ -168,6 +168,7 @@ header > div {
 	justify-self: end;
 	align-items: center;
 	gap: 1.5rem;
+	padding: 0 1rem;
 }
 
 #user {
