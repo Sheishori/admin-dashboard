@@ -275,3 +275,7 @@ main {
 	align-self: center;
 	gap: 0.25rem 1rem;
 }
+
+.trending-user .username {
+	align-self: end;
+}
