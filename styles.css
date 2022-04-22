@@ -162,6 +162,9 @@ header > div {
 #header-left {
 	grid-auto-flow: column;
 	justify-self: end;
+	align-items: center;
+	gap: 1.5rem;
+	font-weight: 600;
 }
 
 #user {
