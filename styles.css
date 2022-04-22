@@ -170,6 +170,9 @@ header > div {
 #user {
 	grid-template-columns: auto auto;
 	justify-self: start;
+	align-items: center;
+	font-weight: 600;
+	column-gap: 1rem;
 }
 
 #user .avatar,
@@ -181,6 +184,15 @@ header > div {
 
 #user img {
 	height: 4rem;
+}
+
+#user div {
+	font-size: 0.8rem;
+}
+
+#user .name {
+	align-self: start;
+	font-size: 1.4rem;
 }
 
 #buttons {
