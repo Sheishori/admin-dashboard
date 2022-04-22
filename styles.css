@@ -126,11 +126,14 @@ img {
 /* header css */
 
 header {
+	position: relative;
+	z-index: 1;
 	grid-area: 1 / 2 / 2 / 3;
 	display: grid;
 	grid-template: 1fr 1fr / 1fr min(40%, 40rem);
 	align-items: center;
 	padding: 0rem 3rem 0.5rem 2rem;
+	box-shadow: 0.1rem 0.2rem 0.2rem rgb(204, 195, 175);
 }
 
 header > div {
@@ -234,7 +237,7 @@ main {
 #trending .items {
 	background-color: white;
 	border-radius: 0.5rem;
-	box-shadow: 0.1rem 0.2rem 0.2rem rgb(190, 190, 190);
+	box-shadow: 0.1rem 0.2rem 0.2rem rgb(204, 195, 175);
 }
 
 .project {
