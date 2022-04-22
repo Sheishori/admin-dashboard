@@ -126,6 +126,11 @@ main {
 	background-color: #e2e7ef;
 }
 
+#projects, #announcements, #trending {
+	display: grid;
+	grid-template-rows: min-content auto;
+}
+
 #projects {
 	grid-row: 1 / 3;
 }
@@ -142,6 +147,7 @@ main {
 
 #projects .items {
 	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: 0.5fr;
 	gap: 1.5rem;
 }
 
