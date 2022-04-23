@@ -215,6 +215,7 @@ header > div {
 	font-weight: 500;
 	color: white;
 	background-color: #308fd1;
+	cursor: pointer;
 }
 
 /* main body css */
